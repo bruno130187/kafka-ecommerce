@@ -1,11 +1,15 @@
-package br.com.bruno;
+package br.com.bruno.newOrder;
+
+import br.com.bruno.kafka.KafkaDispather;
+import br.com.bruno.Order;
+import br.com.bruno.email.Email;
 
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
-public class NewOrderMain {
+public class NewOrder {
 
     public static void main(String[] args) throws ExecutionException, InterruptedException, IOException {
         try (var orderDispatcher = new KafkaDispather<Order>()) {

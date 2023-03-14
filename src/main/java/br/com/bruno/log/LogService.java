@@ -1,5 +1,6 @@
-package br.com.bruno;
+package br.com.bruno.log;
 
+import br.com.bruno.kafka.KafkaService;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.common.serialization.StringDeserializer;

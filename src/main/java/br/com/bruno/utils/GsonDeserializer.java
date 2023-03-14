@@ -1,4 +1,4 @@
-package br.com.bruno;
+package br.com.bruno.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

@@ -1,4 +1,4 @@
-package br.com.bruno;
+package br.com.bruno.kafka;
 
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 

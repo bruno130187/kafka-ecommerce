@@ -5,24 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f513da9c-a8dd-49a6-b906-24746c85e328" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommerce.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/FraudDetectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/FraudDetectionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/NewOrderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bruno/EmailService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bruno/FraudDetectionService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bruno/LogService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/bruno/NewOrderMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/kafka/ConsumerFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/email/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/email/EmailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/FraudDetectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/fraudDetector/FraudDetectionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/GsonDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/utils/GsonDeserializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/GsonSerializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/utils/GsonSerializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/KafkaDispather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/kafka/KafkaDispather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/kafka/KafkaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/log/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/NewOrderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/newOrder/NewOrder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +48,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "18",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="br.com.bruno" />
@@ -73,9 +66,78 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="br.com.bruno" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.bruno.utils" />
+      <recent name="br.com.bruno.kafka" />
+      <recent name="br.com.bruno.newOrder" />
+      <recent name="br.com.bruno.log" />
+      <recent name="br.com.bruno.fraudDetector" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.bruno" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.NewOrder">
+    <configuration name="EmailService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bruno.email.EmailService" />
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bruno.email.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FraudDetectionService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bruno.fraudDetector.FraudDetectionService" />
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bruno.fraudDetector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bruno.log.LogService" />
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bruno.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bruno.newOrder.NewOrder" />
+      <module name="ecommerce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bruno.newOrder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NewOrder" />
+        <item itemvalue="Application.LogService" />
+        <item itemvalue="Application.FraudDetectionService" />
+        <item itemvalue="Application.EmailService" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

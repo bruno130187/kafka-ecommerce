@@ -1,5 +1,6 @@
-package br.com.bruno;
+package br.com.bruno.kafka;
 
+import br.com.bruno.utils.GsonDeserializer;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -12,7 +13,7 @@ import java.util.Properties;
 import java.util.UUID;
 import java.util.regex.Pattern;
 
-class KafkaService<T> implements Closeable {
+public class KafkaService<T> implements Closeable {
     private final KafkaConsumer<String, T> consumer;
     private final ConsumerFunction parse;
 
@@ -43,7 +44,7 @@ class KafkaService<T> implements Closeable {
         return properties;
     }
 
-    void run() {
+    public void run() {
         while(true) {
             var records = consumer.poll(Duration.ofMillis(100));
             if (!records.isEmpty()) {

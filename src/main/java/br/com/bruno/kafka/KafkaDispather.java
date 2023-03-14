@@ -1,5 +1,6 @@
-package br.com.bruno;
+package br.com.bruno.kafka;
 
+import br.com.bruno.utils.GsonSerializer;
 import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -10,11 +11,11 @@ import java.io.Closeable;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
-class KafkaDispather<T> implements Closeable {
+public class KafkaDispather<T> implements Closeable {
 
     private final KafkaProducer<String, T> producer;
 
-    KafkaDispather() {
+    public KafkaDispather() {
         this.producer = new KafkaProducer<>(properties());
     }
 
@@ -26,7 +27,7 @@ class KafkaDispather<T> implements Closeable {
         return properties;
     }
 
-    void send(String topic, String key, T value) throws ExecutionException, InterruptedException {
+    public void send(String topic, String key, T value) throws ExecutionException, InterruptedException {
         var record = new ProducerRecord<String, T>(topic, key, value);
         producer.send(record, getCallback()).get();
     }

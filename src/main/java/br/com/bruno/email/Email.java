@@ -1,4 +1,4 @@
-package br.com.bruno;
+package br.com.bruno.email;
 
 import lombok.Data;
 
