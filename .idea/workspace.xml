@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f513da9c-a8dd-49a6-b906-24746c85e328" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bd/users_database.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/http/ecommerceServiceHttp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/order/NewOrderServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/users/CreateuserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/users/NewUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/users/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/email/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/email/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/fraudDetector/FraudDetectionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/fraudDetector/FraudDetectionService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/kafka/ConsumerFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/kafka/ConsumerFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/kafka/KafkaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/kafka/KafkaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/log/LogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/log/LogService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ecommerce/br/com/bruno/newOrder/NewOrder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/email/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/email/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/fraudDetector/FraudDetectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/fraudDetector/FraudDetectionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/kafka/ConsumerFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/kafka/ConsumerFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/kafka/KafkaDispather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/kafka/KafkaDispather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/kafka/KafkaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/kafka/KafkaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/log/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/log/LogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/bruno/newOrder/NewOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/bruno/order/NewOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" />
-    </list>
+    <list default="true" id="f513da9c-a8dd-49a6-b906-24746c85e328" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
