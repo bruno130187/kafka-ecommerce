@@ -1,7 +1,6 @@
-package br.com.bruno.newOrder;
+package br.com.bruno.order;
 
 import br.com.bruno.kafka.KafkaDispather;
-import br.com.bruno.Order;
 import br.com.bruno.email.Email;
 
 import java.io.IOException;
@@ -17,17 +16,17 @@ public class NewOrder {
 
                 for (var i = 0; i < 10; i++) {
 
-                    var userId = UUID.randomUUID().toString();
+                    var emailPerson =  Math.random() + "@email.com";
                     var orderId = UUID.randomUUID().toString();
                     var amount = Math.random() * 5000 + 1;
 
-                    var order = new Order(userId, orderId, new BigDecimal(amount));
-                    orderDispatcher.send("ECOMMERCE_NEW_ORDER", userId, order);
+                    var order = new Order(emailPerson, orderId, new BigDecimal(amount));
+                    orderDispatcher.send("ECOMMERCE_NEW_ORDER", emailPerson, order);
 
                     var subject = "Subject " + UUID.randomUUID().toString();
-                    var body = "Thank you for your order! Its in processing";
+                    var body = "Thank you for your order! Its in process!";
                     var email = new Email(subject, body);
-                    emailDispatcher.send("ECOMMERCE_SEND_EMAIL", userId, email);
+                    emailDispatcher.send("ECOMMERCE_SEND_EMAIL", emailPerson, email);
 
                 }
 

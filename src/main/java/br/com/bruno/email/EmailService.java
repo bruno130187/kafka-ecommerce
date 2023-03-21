@@ -1,7 +1,9 @@
 package br.com.bruno.email;
 
 import br.com.bruno.kafka.KafkaService;
+import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
+import org.apache.kafka.common.serialization.StringDeserializer;
 
 import java.util.Map;
 
@@ -13,7 +15,7 @@ public class EmailService {
                 "ECOMMERCE_SEND_EMAIL",
                 emailService::parse,
                 EmailService.class,
-                Map.of())) {
+                Map.of(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class.getName()))) {
             service.run();
         }
     }

@@ -23,12 +23,12 @@ public class LogService {
 
     private void parse(ConsumerRecord<String, String> record) {
         System.out.println("_____________________________________________");
-        System.out.println("LOG: " + record.topic());
+        System.out.println("LOG: " + record.topic() + " -->");
         System.out.println(record.key());
         System.out.println(record.value());
         System.out.println(record.partition());
         System.out.println(record.offset());
-        System.out.println("Logged");
+        System.out.println("Logged!");
     }
 
 }
