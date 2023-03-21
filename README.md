@@ -11,7 +11,11 @@ kafka-ecommerce
 
 ##É um projeto simple de mensageria com Kafka rodando em Cluster (ou seja, pode desligar um dos servidores que o outro assume a mensageria)
 
-##Abaixo segue o link do arquivo do docker-comsose para você subir após ter instalado e configurado o docker em seu computador. O Arquivo pode ser colocado em qualquer lugar do seu computador e para você rodar deve executar o seguinte comando:
+##Abaixo segue o link do arquivo do docker-compose.yml para você subir após ter instalado e configurado o docker em seu computador. O Arquivo pode ser colocado em qualquer lugar do seu computador e para você rodar deve executar o seguinte comando:
+
+Arquivo docker-compose para usar no comando abaixo:
+
+[https://drive.google.com/file/d/1ESAuwX0AJZkGqLS5E6mAvUXahWIxhv2d/view?usp=sharing]
 
 ### `docker-compose -f c:\pasta-do-arquivo\docker-compose-cluster.yml up`
 
