@@ -43,8 +43,8 @@ E para rodar o único producer execute o método main do arquivo abaixo:
 
 Após rodar a classe acima, vá no navegador e acesse o seguinte link:
 
-No Path Param inserir o e-mail e o amount que é o valor de compra, a regra usada para praud é simples somente para teste, se o amount for maior do que 4500 o sistema considera uma fraude e dispara a mensageria de fraude. Se o email já está no banco ele não cria um usuário novo, se não estiver ele cria o usuario no banco e sempre disparando as mensagens.
-
 [http://localhost:8080/newOrderServlet?email=bruno.araujo5@gmail.com&amount=3922]
+
+No Path Param inserir o e-mail e o amount que é o valor de compra, a regra usada para praud é simples somente para teste, se o amount for maior do que 4500 o sistema considera uma fraude e dispara a mensageria de fraude. Se o email já está no banco ele não cria um usuário novo, se não estiver ele cria o usuario no banco e sempre disparando as mensagens.
 
 Segue meu LinkedIn: [https://www.linkedin.com/in/bruno-araujo-oficial/]
