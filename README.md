@@ -1,6 +1,10 @@
 # kafka-ecommerce
 kafka-ecommerce
 
+(https://github.com/bruno130187/imagens/blob/main/project1.PNG)
+
+(https://github.com/bruno130187/imagens/blob/main/docker1.PNG)
+
 ## Projeto de Mensageria Kafka com Spring Boot Java, usando docker para os servidores Zookeper e Kafka. Também tem um banco de dados SQLite e o Servidor Jetty para Servlet.
 
 ##É um projeto simple de mensageria com Kafka rodando em Cluster (ou seja, pode desligar um dos servidores que o outro assume a mensageria)
