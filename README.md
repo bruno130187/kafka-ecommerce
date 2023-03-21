@@ -1,7 +1,7 @@
 # kafka-ecommerce
 kafka-ecommerce
 
-(https://github.com/bruno130187/imagens/blob/main/project1.PNG)
+[<img src="https://github.com/bruno130187/imagens/blob/main/project1.PNG" />]
 
 (https://github.com/bruno130187/imagens/blob/main/docker1.PNG)
 
