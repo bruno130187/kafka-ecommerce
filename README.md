@@ -33,12 +33,18 @@ Clique em Add
 
 ##O Banco de dados é o SQLite que está no caminho src\bd\users_database.sqlite, é um banco de dados leve para desenvolvimento e testes. O tipo de conexão utilizada é a JDBC.  
 
-[https://drive.google.com/file/d/1ESAuwX0AJZkGqLS5E6mAvUXahWIxhv2d/view?usp=sharing]
+Para rodar os consumers você executar os métodos main dos 3 arquivos abaixo:
+- /log/logService
+- /fraudDetector/FraudDetectionService
+- /email/EmailService
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+E para rodar o único producer execute o método main do arquivo abaixo:
+- http/EcommerceServiceHttp
 
-## Este projeto só engloba os endpoints de Books do Backend e vou implementar a de Persons futuramente.
+Após rodar a classe acima, vá no navegador e acesse o seguinte link:
 
-## Segue o link para baixar o VScode:
+No Path Param inserir o e-mail e o amount que é o valor de compra, a regra usada para praud é simples somente para teste, se o amount for maior do que 4500 o sistema considera uma fraude e dispara a mensageria de fraude. Se o email já está no banco ele não cria um usuário novo, se não estiver ele cria o usuario no banco e sempre disparando as mensagens.
+
+[http://localhost:8080/newOrderServlet?email=bruno.araujo5@gmail.com&amount=3922]
 
 Segue meu LinkedIn: [https://www.linkedin.com/in/bruno-araujo-oficial/]
