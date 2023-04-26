@@ -9,7 +9,7 @@ kafka-ecommerce
 
 ## Projeto de Mensageria Kafka com Spring Boot Java, usando docker para os servidores Zookeper e Kafka. Também tem um banco de dados SQLite e o Servidor Jetty para Servlet.
 
-##É um projeto simple de mensageria com Kafka rodando em Cluster (ou seja, pode desligar um dos servidores que o outro assume a mensageria)
+##É um projeto simples de mensageria com Kafka rodando em Cluster (ou seja, pode desligar um dos servidores que o outro assume a mensageria)
 
 ##Abaixo segue o link do arquivo do docker-compose.yml para você subir após ter instalado e configurado o docker em seu computador. O Arquivo pode ser colocado em qualquer lugar do seu computador e para você rodar deve executar o seguinte comando:
 
